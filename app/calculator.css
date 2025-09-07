@@ -1,0 +1,52 @@
+.app{
+    min-height: 100vh;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    /* background-image: url("./image.png"); */
+}
+
+.Main-header{
+    color:red;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.Calc-display input{
+    border-radius: 16px;
+    padding: 30px;
+    width: 100%;
+    font-size:20px;
+    text-align: right;
+    border: 2px solid gray;
+}
+
+.Show-button{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Calc-buttons {
+    display: grid;
+    padding: 20px;
+    gap: 12px;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    width:100%
+}
+
+.Calc-buttons button {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+}
